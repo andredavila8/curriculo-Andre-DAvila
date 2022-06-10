@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                                /* Specify what JSX code is generated. */
+    "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                                 /* Specify a file that bundles all outputs into one JavaScript file. If `declaration` is true, also designates a file that bundles all .d.ts output. */
+    "outDir": "./dist",
+     "esModuleInterop": true,                         /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                     /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
